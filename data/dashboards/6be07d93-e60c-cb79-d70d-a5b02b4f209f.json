@@ -1,0 +1,641 @@
+{
+  "id": "6be07d93-e60c-cb79-d70d-a5b02b4f209f",
+  "name": "Permissions Manager",
+  "creationDate": "Sat, 27 Feb 2021 08:05:15 GMT",
+  "lastUpdateDate": "Tue, 16 Mar 2021 14:04:39 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "1bafa7aa-6d87-caac-13aa-3b3f67a1ccd7"
+    }
+  ],
+  "screens": [
+    {
+      "id": "1bafa7aa-6d87-caac-13aa-3b3f67a1ccd7",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "b6ab019e-8425-0a90-4309-0caf1777c126",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 24,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "11d48627-c087-830f-cec4-d6bb667992da",
+            "key": "Panel",
+            "options": {
+              "version": "4.4.0",
+              "Basics": {
+                "ComponentName": "panel",
+                "RelativeHeight": true,
+                "Advanced": false,
+                "UserLayout": false,
+                "Floatable": false,
+                "ColCount": 36,
+                "RowHeight": 25,
+                "RowCount": 24
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "3fe7a159-b794-4b37-7d2d-e9e31f29ad27",
+                "layout": {
+                  "row": 0,
+                  "column": 0,
+                  "rowSpan": 24,
+                  "colSpan": 36
+                },
+                "component": {
+                  "id": "5724fa8e-12d0-e873-f1b2-eb7edd1a4f53",
+                  "key": "Tabs",
+                  "options": {
+                    "version": "4.2.0s2",
+                    "dropdownPossibleValues": [
+                      {
+                        "Id": 0,
+                        "Name": "Dashboards"
+                      },
+                      {
+                        "Id": 1,
+                        "Name": "User Groups"
+                      }
+                    ],
+                    "Selection": {
+                      "target_tab": 0,
+                      "unloadInactive": "",
+                      "SetViewStateOnSelect": {
+                        "ViewState": "",
+                        "Value": ""
+                      }
+                    },
+                    "Basics": {
+                      "ComponentName": "tabs"
+                    },
+                    "Items": [
+                      {
+                        "Name": "Dashboards",
+                        "Tooltip": "",
+                        "HideTab": false,
+                        "Id": "d2d571b1-afa-c5d7-534b-434a6b64f555"
+                      },
+                      {
+                        "Name": "User Groups",
+                        "Tooltip": "",
+                        "HideTab": false,
+                        "Id": "4be87977-29c8-7cdd-a7d5-c3148087ad3f"
+                      }
+                    ],
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [
+                    {
+                      "id": "cef976bb-76c6-d2e4-a638-e65b4cdde6e6",
+                      "key": "Panel",
+                      "options": {
+                        "version": "4.4.0",
+                        "Basics": {
+                          "ComponentName": "panel",
+                          "RelativeHeight": true,
+                          "Advanced": false,
+                          "UserLayout": false,
+                          "Floatable": false,
+                          "ColCount": 36,
+                          "RowHeight": 25,
+                          "RowCount": 24
+                        },
+                        "Style": {
+                          "advanced": "",
+                          "cssClasses": ""
+                        },
+                        "Alignment": {
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                          "paddingBottom": 0,
+                          "innerPaddingLeft": 0,
+                          "innerPaddingRight": 0,
+                          "innerPaddingTop": 0,
+                          "innerPaddingBottom": 0,
+                          "titlePaddingLeft": 0,
+                          "titlePaddingRight": 0,
+                          "titlePaddingTop": 7,
+                          "titlePaddingBottom": 7
+                        },
+                        "format": {
+                          "titleFontSize": 16,
+                          "titleHorizontal": "Center",
+                          "titleShadow": false,
+                          "tileBorderWidth": 0,
+                          "tileBorderRounding": 0,
+                          "tileBorderColor": "#000000",
+                          "tileBackgroundColor": "#000000",
+                          "tileTransparentBackground": true,
+                          "tileShadow": false
+                        }
+                      },
+                      "containerId": "4be87977-29c8-7cdd-a7d5-c3148087ad3f",
+                      "components": [],
+                      "widgets": [
+                        {
+                          "id": "d9263699-4a9e-23a8-3e6d-c844fd2a94a1",
+                          "layout": {
+                            "row": 0,
+                            "column": 0,
+                            "rowSpan": 24,
+                            "colSpan": 36
+                          },
+                          "component": {
+                            "id": "42c97cf4-075f-9783-3cc8-b43ded2e3437",
+                            "key": "Datagrid",
+                            "options": {
+                              "version": "4.5.0a",
+                              "datagridPossibleColumns": [
+                                "id",
+                                "user",
+                                "usergroups"
+                              ],
+                              "datagridPossibleColumnsWithItself": [
+                                "<this>",
+                                "id",
+                                "user",
+                                "usergroups"
+                              ],
+                              "selectedColumnPossibleValues": [
+                                "id",
+                                "user",
+                                "usergroups"
+                              ],
+                              "highlightTargetPossibleValues": [
+                                "id",
+                                "user",
+                                "usergroups",
+                                "*"
+                              ],
+                              "sortingPossibleValues": [
+                                "",
+                                "id",
+                                "user",
+                                "usergroups"
+                              ],
+                              "Basics": {
+                                "Data": {
+                                  "_dashboardsType": "data",
+                                  "value": "getUserGroups"
+                                },
+                                "Filtering": "Advanced Column Filters",
+                                "ShowPagingControl": false,
+                                "EnableGrouping": false,
+                                "IsEditable": true,
+                                "IsInsertable": true
+                              },
+                              "ColumnsConfiguration": [
+                                {
+                                  "Field": "user",
+                                  "DisplayName": "User Name",
+                                  "WidthWeight": 100,
+                                  "MinWidthAbsolute": 100,
+                                  "TextAlign": "left"
+                                },
+                                {
+                                  "Field": "usergroups",
+                                  "DisplayName": "User Group",
+                                  "WidthWeight": 100,
+                                  "MinWidthAbsolute": 100,
+                                  "TextAlign": "left"
+                                }
+                              ],
+                              "Alignment": {
+                                "paddingLeft": 0,
+                                "paddingRight": 0,
+                                "paddingTop": 0,
+                                "paddingBottom": 0,
+                                "innerPaddingLeft": 0,
+                                "innerPaddingRight": 0,
+                                "innerPaddingTop": 0,
+                                "innerPaddingBottom": 0,
+                                "titlePaddingLeft": 0,
+                                "titlePaddingRight": 0
+                              },
+                              "format": {
+                                "tileBorderWidth": 0,
+                                "tileBorderRounding": 0,
+                                "tileBorderColor": "#000000",
+                                "tileBackgroundColor": "#000000",
+                                "tileTransparentBackground": true,
+                                "tileShadow": false
+                              },
+                              "Style": {
+                                "advanced": "[data-widgetid=\"d9263699-4a9e-23a8-3e6d-c844fd2a94a1\"] > div.grid-stack-item-content > div > div.queryStatus.NoResults {\n   display: none;\n   visibility: hidden \n}"
+                              }
+                            },
+                            "containerId": null,
+                            "components": [],
+                            "widgets": [],
+                            "definitionId": "21",
+                            "hasOnSettingsChange": true
+                          }
+                        }
+                      ],
+                      "definitionId": "50",
+                      "hasOnSettingsChange": true
+                    },
+                    {
+                      "id": "f1c9a4cc-62d6-394a-9ea4-b22d18749d6b",
+                      "key": "Panel",
+                      "options": {
+                        "version": "4.4.0",
+                        "Basics": {
+                          "ComponentName": "panel",
+                          "RelativeHeight": true,
+                          "Advanced": false,
+                          "UserLayout": false,
+                          "Floatable": false,
+                          "ColCount": 36,
+                          "RowHeight": 25,
+                          "RowCount": 24
+                        },
+                        "Style": {
+                          "advanced": "",
+                          "cssClasses": ""
+                        },
+                        "Alignment": {
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                          "paddingBottom": 0,
+                          "innerPaddingLeft": 0,
+                          "innerPaddingRight": 0,
+                          "innerPaddingTop": 0,
+                          "innerPaddingBottom": 0,
+                          "titlePaddingLeft": 0,
+                          "titlePaddingRight": 0,
+                          "titlePaddingTop": 7,
+                          "titlePaddingBottom": 7
+                        },
+                        "format": {
+                          "titleFontSize": 16,
+                          "titleHorizontal": "Center",
+                          "titleShadow": false,
+                          "tileBorderWidth": 0,
+                          "tileBorderRounding": 0,
+                          "tileBorderColor": "#000000",
+                          "tileBackgroundColor": "#000000",
+                          "tileTransparentBackground": true,
+                          "tileShadow": false
+                        }
+                      },
+                      "containerId": "d2d571b1-afa-c5d7-534b-434a6b64f555",
+                      "components": [],
+                      "widgets": [
+                        {
+                          "id": "c86ecb94-f8a1-0ce7-ed84-fc9d454444a1",
+                          "layout": {
+                            "row": 0,
+                            "column": 0,
+                            "rowSpan": 24,
+                            "colSpan": 36
+                          },
+                          "component": {
+                            "id": "11286313-986c-e8c3-b3df-eb483e906c18",
+                            "key": "Datagrid",
+                            "options": {
+                              "version": "4.5.0a",
+                              "datagridPossibleColumns": [
+                                "id",
+                                "dashboard",
+                                "usergroups",
+                                "name"
+                              ],
+                              "datagridPossibleColumnsWithItself": [
+                                "<this>",
+                                "id",
+                                "dashboard",
+                                "usergroups",
+                                "name"
+                              ],
+                              "selectedColumnPossibleValues": [
+                                "id",
+                                "dashboard",
+                                "usergroups",
+                                "name"
+                              ],
+                              "highlightTargetPossibleValues": [
+                                "id",
+                                "dashboard",
+                                "usergroups",
+                                "name",
+                                "*"
+                              ],
+                              "sortingPossibleValues": [
+                                "",
+                                "id",
+                                "dashboard",
+                                "usergroups",
+                                "name"
+                              ],
+                              "Basics": {
+                                "Data": {
+                                  "_dashboardsType": "data",
+                                  "value": "getDashboards"
+                                },
+                                "Filtering": "Advanced Column Filters",
+                                "ShowPagingControl": false,
+                                "EnableGrouping": false,
+                                "IsEditable": true,
+                                "IsInsertable": true
+                              },
+                              "ColumnsConfiguration": [
+                                {
+                                  "Field": "dashboard",
+                                  "DisplayName": "Dashboard GUID",
+                                  "WidthWeight": 100,
+                                  "MinWidthAbsolute": 100,
+                                  "TextAlign": "left"
+                                },
+                                {
+                                  "Field": "name",
+                                  "DisplayName": "Dashboard Name",
+                                  "WidthWeight": 100
+                                },
+                                {
+                                  "Field": "usergroups",
+                                  "DisplayName": "User Groups",
+                                  "WidthWeight": 100
+                                }
+                              ],
+                              "Alignment": {
+                                "paddingLeft": 0,
+                                "paddingRight": 0,
+                                "paddingTop": 0,
+                                "paddingBottom": 0,
+                                "innerPaddingLeft": 0,
+                                "innerPaddingRight": 0,
+                                "innerPaddingTop": 0,
+                                "innerPaddingBottom": 0,
+                                "titlePaddingLeft": 0,
+                                "titlePaddingRight": 0
+                              },
+                              "format": {
+                                "tileBorderWidth": 0,
+                                "tileBorderRounding": 0,
+                                "tileBorderColor": "#000000",
+                                "tileBackgroundColor": "#000000",
+                                "tileTransparentBackground": true,
+                                "tileShadow": false
+                              }
+                            },
+                            "containerId": null,
+                            "components": [],
+                            "widgets": [],
+                            "definitionId": "21",
+                            "hasOnSettingsChange": true
+                          }
+                        }
+                      ],
+                      "definitionId": "50",
+                      "hasOnSettingsChange": true
+                    }
+                  ],
+                  "widgets": [],
+                  "definitionId": "26",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "50",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [
+    "starred"
+  ],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {
+    "getDashboards": {
+      "_autoExec": true,
+      "_columns": [
+        "id",
+        "dashboard",
+        "usergroups",
+        "name"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "webserver",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": "dashboard"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[x]\r\n  .debug.dashTab:dashTab:`id xkey update id:i from (\"SS\";enlist csv) 0: .perms.dashboards[];\r\n  dashList:(update dashboard:`$dashboard from `dashboard xcol .perms.dashList);\r\n  dashTab lj dashList\r\n  }",
+      "_queryParams": [
+        {
+          "name": "x",
+          "index": 0,
+          "type": "symbol",
+          "value": "x",
+          "IsKdbParam": true,
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": true,
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n  .debug.update:(`dgAdd`dgUpd`dgDel)!(dgAdd;dgUpd;dgDel);\n\n  /generate Unique IDs for the New Items\n  .debug.toAdd:dgAdd;\n  .debug.countdgAdd:count dgAdd;\n\n  //Need delete to occur first to ensure any deletions do not remove updates\n  if[(count dgDel)>0;\n    .perms.log.out \"Removing dashboard: \",string first dgDel[`dashboard];\n    .debug.dashTab:dashboards: delete from .debug.dashTab where id in (dgDel[`id]);\n    .perms.dashboards[] 0: csv 0: distinct delete id from dashboards\n  ]\n  \n  if[(count dgAdd)>0;\n    .perms.log.out \"Adding dashboard: \",string first dgAdd[`dashboard];\n    .debug.maxID:availablePK:1+exec max id from .debug.dashTab;\n    addedCount:count dgAdd[`dashboard];\n    dgAdd[`id]:(availablePK + til addedCount);\n    dashboards:.debug.dashTab: .debug.dashTab upsert delete name from flip dgAdd;\n    .perms.dashboards[] 0: csv 0: distinct delete id from dashboards\n    ];\n\n  if[(count dgUpd)>0;\n    .perms.log.out \"Updating dashboard: \",string first dgUpd[`dashboard];\n    .debug.dashTab:dashboards:.debug.dashTab lj 1! flip dgUpd;\n    .perms.dashboards[] 0: csv 0: distinct delete id, name from dashboards\n  ];\n\n  }",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "getUserGroups": {
+      "_autoExec": true,
+      "_columns": [
+        "id",
+        "user",
+        "usergroups"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "webserver",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": "usergroups"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[x]\r\n  .debug.userTab:userTab:`id xkey update id:i from (\"SS\";enlist csv) 0: .perms.usergroups[];\r\n  userTab\r\n  }",
+      "_queryParams": [
+        {
+          "name": "x",
+          "index": 0,
+          "type": "symbol",
+          "value": "x",
+          "IsKdbParam": true,
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": true,
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n  .debug.update:(`dgAdd`dgUpd`dgDel)!(dgAdd;dgUpd;dgDel);\n\n  //Need delete to occur first to ensure any deletions do not remove updates\n  if[(count dgDel)>0;\n    .perms.log.out \"Removing user: \",string first dgDel[`user];\n    .debug.userTab:usergroups: delete from .debug.userTab where id in (dgDel[`id]);\n    .perms.usergroups[] 0: csv 0: distinct delete id from usergroups\n  ]\n  \n  if[(count dgAdd)>0;\n    .perms.log.out \"Adding user: \",string first dgAdd[`user];\n    .debug.maxUserID:availablePK:1+exec max id from .debug.userTab;\n    addedCount:count dgAdd[`user];\n    dgAdd[`id]:(availablePK + til addedCount);\n    usergroups:.debug.userTab: .debug.userTab upsert flip dgAdd;\n    .perms.usergroups[] 0: csv 0: distinct delete id from usergroups;\n    \n      ];\n\n  if[(count dgUpd)>0;\n    .perms.log.out \"Updating user: \",string first dgUpd[`user];\n    .debug.userTab:usergroups:.debug.userTab lj 1! flip dgUpd;\n    .perms.usergroups[] 0: csv 0: distinct delete id from usergroups\n  ];\n }",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "Enabled",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": true,
+  "version": "4.6.0P1"
+}

@@ -1,0 +1,4 @@
+user,usergroups
+user1,admin|restricted
+user2,developer
+user3,tester

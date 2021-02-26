@@ -1,0 +1,130 @@
+{
+  "id": "10ec73be-e822-7e49-1159-037697f15bf1",
+  "name": "Error",
+  "creationDate": "Sat, 27 Feb 2021 08:03:18 GMT",
+  "lastUpdateDate": "Thu, 11 Mar 2021 11:23:51 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "b275de36-4be5-f459-790e-b6ca3c59a753"
+    }
+  ],
+  "screens": [
+    {
+      "id": "b275de36-4be5-f459-790e-b6ca3c59a753",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "7a6338aa-3272-bf41-9e9c-656a743dd447",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 3,
+            "colSpan": 35
+          },
+          "component": {
+            "id": "52b9fc56-4520-cb06-044a-ab9c5ac36f66",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.2.0s3",
+              "Basics": {
+                "ComponentName": "label",
+                "HtmlText": "<b>Permission Denied</b><div><b><br></b></div><div>You do not have access to view this dashboard.</div><div><br></div><div>Contact your administrator if this is incorrect.</div>",
+                "Data": "",
+                "Template": "",
+                "Theme": "Dark",
+                "FontSize": "13",
+                "horizontal": "Center",
+                "vertical": "Middle",
+                "tooltip": "",
+                "AllowUnsafeContent": false,
+                "version": "4.2.0s2"
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "17",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [
+    "starred"
+  ],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {},
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": true,
+  "version": "4.6.0P1"
+}

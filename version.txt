@@ -1,0 +1,4 @@
+product.name=permissions
+major.version=1
+minor.version=0
+incremental.version=0

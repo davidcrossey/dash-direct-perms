@@ -1,0 +1,11 @@
+{
+    "name": "webserver",
+    "dbtype": "q",
+    "tls": "off",
+    "host": "localhost",
+    "port": "10001",
+    "user": "",
+    "pass": "",
+    "database": ""
+  }
+  
